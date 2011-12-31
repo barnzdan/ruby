@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 
 #
-# dlb
+# dlb 20111231
 #
 
 def call_block
