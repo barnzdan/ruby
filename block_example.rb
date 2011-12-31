@@ -1,5 +1,9 @@
 #!/usr/bin/ruby
 
+#
+# dlb
+#
+
 def call_block
   puts "Start of method"
   yield
