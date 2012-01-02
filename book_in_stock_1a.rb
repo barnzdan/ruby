@@ -1,5 +1,10 @@
 #!/usr/bin/env ruby
 
+#
+# Book In Stock
+# Tutorial sample
+#
+
 
 class BookInStock
   def initialize(isbn, price)
