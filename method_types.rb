@@ -18,3 +18,5 @@ end
 
 Foo.bar
 Foo.new.baz
+
+if __FILE__ == $0
