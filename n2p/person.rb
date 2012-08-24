@@ -9,3 +9,10 @@ p.gender = "male"
 
 
 puts "Hi, I'm #{p.name}. I am #{p.age} old and am a #{p.gender}."
+
+class Pet
+  def name(@name)
+    @name = name
+    puts "Hi, name"
+  end
+end
