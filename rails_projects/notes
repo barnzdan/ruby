@@ -1,0 +1,23 @@
+* RVM
+Ruby Version Manager - makes version management and dependencies much easier
+rvm
+
+* MVC
+** Model
+** View
+** Controller
+
+* Rails router - config/routes.rb
+** Rails router dispatches requests to the controller based on the URI
+
+* Make app root
+** rails new <app name>
+
+* Startup WEBrick web server
+rails server
+
+* Scaffolding - code generation
+rails generate scaffold User name:string email:string
+
+* create the sqlite db tables 
+bundle exec rake db:migrate
