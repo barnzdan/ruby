@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>pickmyteam</title>
+
+<script language type="text/javascript">
+<!--
+
+function getMessage() 
+{
+var ar = new Array(31)
+ar[0] = "Arizona Cardinals "
+ar[1] = "Atlanta Falcons "
+ar[2] = "Baltimore Ravens "
+ar[3] = "Buffalo Bills "
+ar[4] = "Carolina Panthers "
+ar[5] = "Chicago Bears "
+ar[6] = "Cincinnati Bengals "
+ar[7] = "Cleveland Browns "
+ar[8] = "Dallas Cowboys "
+ar[9] = "Denver Broncos "
+ar[10] = "Detroit Lions "
+ar[11] = "Green Bay Packers "
+ar[12] = "Houston Texans "
+ar[13] = "Indianapolis Colts "
+ar[14] = "Jacksonville Jaguars "
+ar[15] = "Kansas City Chiefs "
+ar[16] = "Miami Dolphins "
+ar[17] = "Minnesota Vikings "
+ar[18] = "New England Patriots "
+ar[19] = "New Orleans Saints "
+ar[20] = "New York Giants "
+ar[21] = "New York Jets "
+ar[22] = "Oakland Raiders "
+ar[23] = "Philadelphia Eagles "
+ar[24] = "Pittsburgh Steelers "
+ar[25] = "San Diego Chargers "
+ar[26] = "San Francisco 49ers "
+ar[27] = "Seattle Seahawks "
+ar[28] = "St. Louis Rams "
+ar[29] = "Tampa Bay Buccaneers "
+ar[30] = "Tennessee Titans "
+ar[31] = "Washington Redskins"
+
+// add as many more that you can stand but make
+// sure you update the value '7' in the alert box
+var now = new Date()
+var sec = now.getSeconds()
+alert("Your team pick for this season is:\n\n" + ar[sec % 31])
+}
+
+//-->
+</script>
+
+</head>
+
+<body>    
+<form>
+<input type="button" value="Pick My Team!" onClick="setTimeout('getMessage();', 2000);" />
+</form>
+
+</body>
+</html>

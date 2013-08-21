@@ -1,8 +1,5 @@
-Mynewapp2::Application.routes.draw do
-  get "pickmyteam/index"
-  get "demoter/slag"
-  get "demo/slag"
-  get "demo/shamwow"
+SimpleCms::Application.routes.draw do
+  get "shamwow/index"
   get "demo/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
