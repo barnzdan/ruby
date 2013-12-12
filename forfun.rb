@@ -4,6 +4,7 @@ class Animal
   def initialize(name)
     @name = name 
   end
+end
 
   def type
     if @name =~ ("cat")
@@ -14,7 +15,8 @@ class Animal
       puts "A @name says ---"
     else
       puts "I got nothin"
-    end
+  end
 end
 
-a = Animal.new(gets.chomp)
+#a = Animal.new(gets.chomp)
+name = Animal.new()
