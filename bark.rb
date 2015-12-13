@@ -8,6 +8,8 @@ class Dog
   end
 end
 
+# instantiate Dog class
+
 d = Dog.new
 puts d.speak
 puts Dog.new.speak
